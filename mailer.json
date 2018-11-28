@@ -1,0 +1,11 @@
+{
+  "mailer": {
+    "admin_gui" : "http://192.168.33.43:3000/",
+    "mail_from": "sensu@dlp.srv.world",
+    "mail_to": "mburkhardt@edrans.com",
+    "smtp_address": "127.0.0.1",
+    "smtp_enable_starttls_auto": "false",
+    "smtp_port": "25",
+    "smtp_domain": "srv.world"
+  }
+}

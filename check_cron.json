@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "cron": {
+      "command": "/opt/sensu/embedded/bin/check-process.rb -p cron",
+      "subscribers": [
+        "ALL"
+      ],
+      "interval": 60,
+	"handlers": [ "mailer" ]
+    }
+  }
+}

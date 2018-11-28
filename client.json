@@ -1,0 +1,16 @@
+{
+          "client": {
+            "name": "sensu-server",
+            "address": "127.0.0.1",
+            "subscriptions": ["ALL"],
+            "keepalive":
+            {
+           "handler": "mailer",
+            "thresholds": {
+            "warning": 250,
+            "critical": 300
+          }
+
+            }
+          }
+}

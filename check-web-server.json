@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "web-server": {
+      "notification": "Web Server failed",
+      "command": "/usr/lib64/nagios/plugins/check_http  -H localhost -p 3000 -w 10s -c 30s",
+      "subscribers": ["ALL"],
+      "interval": 60,
+      "handlers": ["default"]
+    }
+  }
+}
